@@ -1,0 +1,11 @@
+{
+    "plugins": [
+        ["module-resolver", {
+            "root": ["./"],
+            "alias": {
+                "Components": "./src/library/common/components",
+                "Default": "./src/modules/default"
+            }
+        }]
+    ]
+}

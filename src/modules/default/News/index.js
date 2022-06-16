@@ -24,7 +24,7 @@ function News(){
 						</div>
 					</div>
 					<div class='col-md-6 py-3'>
-						<h5>Welcome To Home</h5>
+						<h5>Welcome To News</h5>
 						<p>
 							Sriracha biodiesel taxidermy organic post-ironic,
 							Intelligentsia salvia mustache 90's code editing brunch.

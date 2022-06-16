@@ -10,7 +10,9 @@ function NavbarComponent(){
 					<Navbar.Brand>Navbar</Navbar.Brand>
 				</Link>
 				<Nav className='me-auto'>
-					<Link to={'/news'}>News</Link>
+					<Link to={'/news'}>
+						<Nav>News</Nav>
+					</Link>
 					<Link to={'/mobiles'}>Mobiles</Link>
 					<Link to={'/laptops'}>Laptops</Link>
 				</Nav>

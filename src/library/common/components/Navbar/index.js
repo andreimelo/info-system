@@ -1,6 +1,7 @@
 import React from 'react';
 import { Navbar, Container, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import './index.css';
 
 function NavbarComponent(){
 	return (
@@ -10,11 +11,15 @@ function NavbarComponent(){
 					<Navbar.Brand>Navbar</Navbar.Brand>
 				</Link>
 				<Nav className='me-auto'>
-					<Link to={'/news'}>
-						<Nav>News</Nav>
+					<Link to={'/news'} className='nav-pad'>
+						News
 					</Link>
-					<Link to={'/mobiles'}>Mobiles</Link>
-					<Link to={'/laptops'}>Laptops</Link>
+					<Link to={'/mobiles'} className='nav-pad'>
+						Mobiles
+					</Link>
+					<Link to={'/laptops'} className='nav-pad'>
+						Laptops
+					</Link>
 				</Nav>
 			</Container>
 		</Navbar>

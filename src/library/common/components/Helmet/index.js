@@ -14,7 +14,7 @@ function HelmetComponent({ title, content, image, description }){
 
 HelmetComponent.propTypes = {
 	title       : PropTypes.string.isRequired,
-	content     : PropTypes.string.isRequired,
+	content     : PropTypes.string,
 	image       : PropTypes.any,
 	description : PropTypes.string.isRequired,
 };

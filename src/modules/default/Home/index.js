@@ -1,11 +1,13 @@
 import React from 'react';
 import LayoutProvider from '../../../library/layout';
 import CarouselComponent from '../../../library/common/components/Carousel';
+import HelmetComponent from '../../../library/common/components/Helmet';
 import { Card, Row, Col } from 'react-bootstrap';
 
 function Home(){
 	return (
 		<LayoutProvider>
+			<HelmetComponent title={'Home'} description={'Lorem Ipsum'} />
 			<div class='container'>
 				<div className='row'>
 					<div className='col-md-12'>

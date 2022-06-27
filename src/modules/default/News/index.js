@@ -1,9 +1,11 @@
 import React from 'react';
 import LayoutProvider from '../../../library/layout';
+import HelmetComponent from '../../../library/common/components/Helmet';
 
 function News(){
 	return (
 		<LayoutProvider>
+			<HelmetComponent title={'News'} description={'Lorem Ipsum'} />
 			<div className='container'>
 				<div className='row'>
 					<div class='col-md-3 py-3'>

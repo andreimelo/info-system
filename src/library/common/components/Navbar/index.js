@@ -21,6 +21,11 @@ function NavbarComponent(){
 						Laptops
 					</Link>
 				</Nav>
+				<Nav className='justify-content-end'>
+					<Link to={'/login'} className='nav-pad'>
+						Login
+					</Link>
+				</Nav>
 			</Container>
 		</Navbar>
 	);

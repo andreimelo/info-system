@@ -2,6 +2,7 @@ import { Suspense } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Spinner } from 'react-bootstrap';
 import { route } from './routes';
+
 function App(){
 	return (
 		<Suspense fallback={<Spinner animation='border' />}>

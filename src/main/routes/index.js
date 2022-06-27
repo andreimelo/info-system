@@ -8,6 +8,8 @@ const Mobiles = lazy(() => import('../../modules/devices/Mobiles'));
 const Laptops = lazy(() => import('../../modules/devices/Laptops'));
 // Auth
 const Login = lazy(() => import('../../modules/auth/Login'));
+// Admin
+const AdminDashboard = lazy(() => import('../../modules/admin/Dashboard'));
 
 export const route = [
 	{
@@ -19,16 +21,20 @@ export const route = [
 		element : <News />,
 	},
 	{
-		path    : '/mobiles',
+		path    : '/mobiles/:id/:id',
 		element : <Mobiles />,
 	},
 	{
-		path    : '/laptops',
+		path    : '/laptops/:id/:id',
 		element : <Laptops />,
 	},
 	{
 		path    : '/login',
 		element : <Login />,
+	},
+	{
+		path    : '/admin/dashboard',
+		element : <AdminDashboard />,
 	},
 	{
 		path    : '*',

@@ -1,5 +1,7 @@
+import LayoutProvider from '../../../library/layout/index';
+
 function Login(){
-	return <div>Welcome To Login</div>;
+	return <LayoutProvider>Welcome To Login</LayoutProvider>;
 }
 
 export default Login;

@@ -6,6 +6,8 @@ const NotFound = lazy(() => import('../../modules/default/NotFound'));
 // Devices
 const Mobiles = lazy(() => import('../../modules/devices/Mobiles'));
 const Laptops = lazy(() => import('../../modules/devices/Laptops'));
+// Auth
+const Login = lazy(() => import('../../modules/auth/Login'));
 
 export const route = [
 	{
@@ -23,6 +25,10 @@ export const route = [
 	{
 		path    : '/laptops',
 		element : <Laptops />,
+	},
+	{
+		path    : '/login',
+		element : <Login />,
 	},
 	{
 		path    : '*',

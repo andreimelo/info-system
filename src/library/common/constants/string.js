@@ -1,0 +1,4 @@
+const STRING = {
+	// dummy
+	TITLE : '',
+};
